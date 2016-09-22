@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Grid System Mockup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+      .header {
+        background-color: #666A86;
+      }
+      .left {
+        float: left;
+      }
+      .right {
+        float: right;
+      }
+      /*#nav {
+        height: 60px;
+        background-color: #666A86;
+        color: #fff;
+      }*/
+      h1 {
+        font-size: 4em;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+      .header ul, h3 {
+        line-height: 60px;
+        margin: 0;
+      }
+      p {
+        line-height: 1.5em;
+        font-size: 1.1em;
+        padding: 2em 0;
+      }
+      li {
+        display: inline-block;
+      }
+      .links a,
+      .footer a {
+        padding: 0 10px;
+        color: #fff;
+        transition: 0.3s;
+        text-decoration: none;
+      }
+      .links a:hover,
+      .footer a:hover {
+        color: #E8DDB5;
+        transition: 0.3s;
+        border-bottom: 1px solid red;
+        padding-bottom: 5px;
+      }
+      .banner {
+        padding: 17em 1em;
+        text-align: center;
+        background-color: #92B6B1;
+      }
+      .reasons {
+        background-color: #E8DDB5;
+        padding: 5em 0;
+      }
+      .reasons .heading {
+        padding: 1em 0 2em 0;
+      }
+      .reasons p {
+        color: grey;
+      }
+      .reasons h2 {
+        text-align: center;
+      }
+      .profiles {
+        background-color: #B2C9AB;
+      }
+      .avatar {
+        padding: 3em;
+      }
+      .profiles img {
+        border-radius: 50%;
+      }
+      .footer {
+        background-color: #666A86;
+        height: 40px;
+      }
+      .footer li {
+        line-height: 40px;
+      }
+      .footer a {
+        padding: 0 10px;
+      }
+      @media (max-width: 660px) {
+        h1 {
+          font-size: 3.25em;
+        }
+        h2 {
+          font-size: 1.75em;
+        }
+        p {
+          padding: 1em 0;
+        }
+        .reasons .heading {
+          padding: 0;
+        }
+      }
+      @media (max-width: 439px) {
+        .header {
+          text-align: center;
+        }
+        .left, .right {
+          float: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+
+      <div class="header row">
+        <!-- <div id="nav" class=""> -->
+          <div class="col-sm-6">
+            <h3 class="left">Our Company</h3>
+          </div>
+          <div class="links col-sm-6">
+            <ul class="right">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Features</a></li>
+            </ul>
+          </div>
+        <!-- </div> -->
+      </div>
+
+      <div class="row">
+        <div class="banner col-xs-12">
+          <h1>We Are Awesome</h1>
+        </div>
+      </div>
+
+      <div class="reasons row">
+        <div class="container">
+          <div class="heading">
+            <h2>Why We Are Awesome</h2>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="profiles row">
+        <div class="container">
+          <div class="avatar col-sm-6">
+            <div class="text-center">
+              <img src="images/gaze_down.jpeg" alt="pic of random woman">
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="avatar col-sm-6">
+            <div class="text-center">
+              <img src="images/gaze_down.jpeg" alt="pic of random woman">
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer row">
+        <div class="col-xs-12">
+          <ul class="text-center">
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">ipsum</a></li>
+            <li><a href="#">dolor</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
